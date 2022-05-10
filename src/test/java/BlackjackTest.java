@@ -17,8 +17,8 @@ public class BlackjackTest {
       "SA, DA, HA, CA", // -> both with AA - dealer wins
       "SA, H2, DA, C2", // -> only sam with AA - dealer wins
       "H2, SA, C2, DA", // -> only dealer with AA - sam wins
-      "H10, SA, CA, D10", // -> both with blackjack - sam wins
-
+      "H10, SA, CA, D10", // -> both with blackjack - sam wins,
+      "D2, S3, H7, DA, C3, D2, S5, D3" // -> dealer
   };
 
   private static String[] winner = new String[]{
@@ -26,6 +26,7 @@ public class BlackjackTest {
       "dealer",
       "sam",
       "sam",
+      "dealer"
   };
 
   /**
